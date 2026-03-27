@@ -141,8 +141,17 @@ footer{
 .nav a{
     width: 14px;
     height: 14px;
+    background-color: rgba(245, 246, 240, 0.9);
     border-radius: 50%;
     transition: all 0.3s ease;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+}
+.slides::-webkit-scrollbar {
+    display: none;                 
+}
+.nav a:hover {
+    background-color: #f9f2cd;      
+    transform: scale(1.3);
 }
 .slides::-webkit-scrollbar {
     display: none;                 
